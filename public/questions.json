@@ -1,0 +1,545 @@
+[
+  {
+    "id": 1,
+    "name": "General Knowledge",
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "Paris"
+      },
+      {
+        "question": "Who wrote 'Hamlet'?",
+        "options": ["Shakespeare", "Dickens", "Hemingway", "Austen"],
+        "answer": "Shakespeare"
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mars", "Earth", "Jupiter", "Saturn"],
+        "answer": "Mars"
+      },
+      {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+        "answer": "Pacific"
+      },
+      {
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "options": ["Lion", "Tiger", "Elephant", "Giraffe"],
+        "answer": "Lion"
+      },
+      {
+        "question": "In which country would you find the Great Barrier Reef?",
+        "options": ["Australia", "USA", "Brazil", "Canada"],
+        "answer": "Australia"
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "What is the chemical symbol for water?",
+        "options": ["O2", "CO2", "H2O", "NaCl"],
+        "answer": "H2O"
+      },
+      {
+        "question": "What is the smallest country in the world?",
+        "options": ["Vatican City", "Monaco", "San Marino", "Liechtenstein"],
+        "answer": "Vatican City"
+      },
+      {
+        "question": "Which is the longest river in the world?",
+        "options": ["Amazon", "Nile", "Yangtze", "Ganges"],
+        "answer": "Amazon"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Science & Technology",
+    "questions": [
+      {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Fe", "Pb"],
+        "answer": "Au"
+      },
+      {
+        "question": "Who is known as the father of modern physics?",
+        "options": [
+          "Isaac Newton",
+          "Albert Einstein",
+          "Galileo Galilei",
+          "Nikola Tesla"
+        ],
+        "answer": "Albert Einstein"
+      },
+      {
+        "question": "What is the speed of light?",
+        "options": [
+          "299,792,458 meters per second",
+          "300,000,000 meters per second",
+          "150,000,000 meters per second",
+          "186,000 miles per second"
+        ],
+        "answer": "299,792,458 meters per second"
+      },
+      {
+        "question": "What is the largest type of cell in the human body?",
+        "options": ["Egg cell", "Muscle cell", "Neuron", "Liver cell"],
+        "answer": "Egg cell"
+      },
+      {
+        "question": "Which planet is closest to the Sun?",
+        "options": ["Venus", "Mercury", "Earth", "Mars"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "Which element is essential for the production of thyroid hormones?",
+        "options": ["Iodine", "Calcium", "Magnesium", "Sodium"],
+        "answer": "Iodine"
+      },
+      {
+        "question": "What is the process by which plants make their food?",
+        "options": [
+          "Photosynthesis",
+          "Respiration",
+          "Transpiration",
+          "Fermentation"
+        ],
+        "answer": "Photosynthesis"
+      },
+      {
+        "question": "Which device is used to measure temperature?",
+        "options": ["Thermometer", "Barometer", "Hygrometer", "Seismograph"],
+        "answer": "Thermometer"
+      },
+      {
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "Nitrogen"
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Endoplasmic Reticulum",
+          "Ribosomes"
+        ],
+        "answer": "Mitochondria"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "History & Geography",
+    "questions": [
+      {
+        "question": "Which country was the first to land a man on the Moon?",
+        "options": ["USA", "Soviet Union", "China", "India"],
+        "answer": "USA"
+      },
+      {
+        "question": "Who was the first president of the United States?",
+        "options": [
+          "George Washington",
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "John Adams"
+        ],
+        "answer": "George Washington"
+      },
+      {
+        "question": "In which year did World War II end?",
+        "options": ["1945", "1940", "1950", "1939"],
+        "answer": "1945"
+      },
+      {
+        "question": "Which city is the capital of Japan?",
+        "options": ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
+        "answer": "Tokyo"
+      },
+      {
+        "question": "What is the longest mountain range in the world?",
+        "options": ["Himalayas", "Andes", "Rockies", "Alps"],
+        "answer": "Andes"
+      },
+      {
+        "question": "Which river is the longest in Africa?",
+        "options": ["Nile", "Congo", "Zambezi", "Limpopo"],
+        "answer": "Nile"
+      },
+      {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["China", "South Korea", "Japan", "Vietnam"],
+        "answer": "Japan"
+      },
+      {
+        "question": "What is the largest desert in the world?",
+        "options": ["Sahara", "Arabian", "Gobi", "Kalahari"],
+        "answer": "Sahara"
+      },
+      {
+        "question": "Which continent is known as the 'Dark Continent'?",
+        "options": ["Africa", "Asia", "Australia", "Europe"],
+        "answer": "Africa"
+      },
+      {
+        "question": "Who was the first emperor of China?",
+        "options": ["Qin Shi Huang", "Han Wudi", "Tang Taizong", "Wu Zetian"],
+        "answer": "Qin Shi Huang"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sports & Games",
+    "questions": [
+      {
+        "question": "Which country hosted the 2016 Summer Olympics?",
+        "options": ["China", "Brazil", "USA", "Russia"],
+        "answer": "Brazil"
+      },
+      {
+        "question": "What sport is known as the 'king of sports'?",
+        "options": ["Football", "Basketball", "Cricket", "Tennis"],
+        "answer": "Football"
+      },
+      {
+        "question": "Which team won the 2018 FIFA World Cup?",
+        "options": ["Germany", "France", "Argentina", "Brazil"],
+        "answer": "France"
+      },
+      {
+        "question": "How many players are there on a basketball team?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "5"
+      },
+      {
+        "question": "Which sport is played at the Wimbledon Championships?",
+        "options": ["Tennis", "Golf", "Cricket", "Football"],
+        "answer": "Tennis"
+      },
+      {
+        "question": "Which country won the 2019 Rugby World Cup?",
+        "options": ["South Africa", "New Zealand", "England", "Australia"],
+        "answer": "South Africa"
+      },
+      {
+        "question": "What is the maximum score in a single frame in ten-pin bowling?",
+        "options": ["10", "12", "20", "30"],
+        "answer": "30"
+      },
+      {
+        "question": "Which team won the 2019 ICC Cricket World Cup?",
+        "options": ["Australia", "England", "India", "New Zealand"],
+        "answer": "England"
+      },
+      {
+        "question": "In which sport would you perform a slam dunk?",
+        "options": ["Basketball", "Football", "Baseball", "Volleyball"],
+        "answer": "Basketball"
+      },
+      {
+        "question": "What is the maximum number of players allowed on a soccer team?",
+        "options": ["11", "12", "13", "14"],
+        "answer": "11"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Math & Logic",
+    "questions": [
+      {
+        "question": "What is the sum of 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "4"
+      },
+      {
+        "question": "What is the value of pi to two decimal places?",
+        "options": ["3.14", "3.15", "3.16", "3.13"],
+        "answer": "3.14"
+      },
+      {
+        "question": "What is the square root of 64?",
+        "options": ["6", "7", "8", "9"],
+        "answer": "8"
+      },
+      {
+        "question": "What is 15 x 3?",
+        "options": ["45", "40", "30", "50"],
+        "answer": "45"
+      },
+      {
+        "question": "What is the area of a triangle with a base of 5 and height of 10?",
+        "options": ["50", "25", "30", "20"],
+        "answer": "25"
+      },
+      {
+        "question": "What is 100 divided by 5?",
+        "options": ["20", "25", "15", "10"],
+        "answer": "20"
+      },
+      {
+        "question": "What is the product of 8 and 9?",
+        "options": ["72", "64", "81", "56"],
+        "answer": "72"
+      },
+      {
+        "question": "What is 50% of 200?",
+        "options": ["50", "100", "150", "200"],
+        "answer": "100"
+      },
+      {
+        "question": "What is the next prime number after 7?",
+        "options": ["11", "13", "17", "9"],
+        "answer": "11"
+      },
+      {
+        "question": "What is 3 raised to the power of 4?",
+        "options": ["81", "64", "27", "9"],
+        "answer": "81"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Entertainment & Pop Culture",
+    "questions": [
+      {
+        "question": "Who is the creator of the TV series 'Friends'?",
+        "options": ["David Crane", "Chuck Lorre", "J.J. Abrams", "Ryan Murphy"],
+        "answer": "David Crane"
+      },
+      {
+        "question": "Which movie won the Oscar for Best Picture in 2020?",
+        "options": [
+          "Parasite",
+          "1917",
+          "Once Upon a Time in Hollywood",
+          "Joker"
+        ],
+        "answer": "Parasite"
+      },
+      {
+        "question": "Which singer is known as the 'King of Pop'?",
+        "options": ["Michael Jackson", "Elvis Presley", "Prince", "Madonna"],
+        "answer": "Michael Jackson"
+      },
+      {
+        "question": "Who played the character of Harry Potter in the movie series?",
+        "options": [
+          "Daniel Radcliffe",
+          "Rupert Grint",
+          "Tom Felton",
+          "Emma Watson"
+        ],
+        "answer": "Daniel Radcliffe"
+      },
+      {
+        "question": "What is the highest-grossing film of all time?",
+        "options": [
+          "Avatar",
+          "Avengers: Endgame",
+          "Titanic",
+          "Star Wars: The Force Awakens"
+        ],
+        "answer": "Avatar"
+      },
+      {
+        "question": "Which superhero is known for the phrase 'I am Iron Man'?",
+        "options": ["Iron Man", "Thor", "Spider-Man", "Captain America"],
+        "answer": "Iron Man"
+      },
+      {
+        "question": "Which artist released the album 'Lover' in 2019?",
+        "options": [
+          "Taylor Swift",
+          "Ariana Grande",
+          "Beyoncé",
+          "Billie Eilish"
+        ],
+        "answer": "Taylor Swift"
+      },
+      {
+        "question": "What year was the movie 'The Matrix' released?",
+        "options": ["1999", "2000", "1998", "2001"],
+        "answer": "1999"
+      },
+      {
+        "question": "Which TV show is known for the catchphrase 'How you doin'?",
+        "options": [
+          "Friends",
+          "The Big Bang Theory",
+          "How I Met Your Mother",
+          "The Office"
+        ],
+        "answer": "Friends"
+      },
+      {
+        "question": "Who directed the movie 'Inception'?",
+        "options": [
+          "Christopher Nolan",
+          "Steven Spielberg",
+          "Martin Scorsese",
+          "James Cameron"
+        ],
+        "answer": "Christopher Nolan"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Literature & Arts",
+    "questions": [
+      {
+        "question": "Who painted the 'Mona Lisa'?",
+        "options": [
+          "Leonardo da Vinci",
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Claude Monet"
+        ],
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "question": "Which author wrote '1984'?",
+        "options": [
+          "George Orwell",
+          "Aldous Huxley",
+          "J.K. Rowling",
+          "F. Scott Fitzgerald"
+        ],
+        "answer": "George Orwell"
+      },
+      {
+        "question": "Who wrote 'The Catcher in the Rye'?",
+        "options": [
+          "J.D. Salinger",
+          "Harper Lee",
+          "Ernest Hemingway",
+          "Mark Twain"
+        ],
+        "answer": "J.D. Salinger"
+      },
+      {
+        "question": "Which musical instrument is known as the 'King of Instruments'?",
+        "options": ["Piano", "Violin", "Organ", "Guitar"],
+        "answer": "Organ"
+      },
+      {
+        "question": "Which author created the character Sherlock Holmes?",
+        "options": [
+          "Arthur Conan Doyle",
+          "Agatha Christie",
+          "Charles Dickens",
+          "Leo Tolstoy"
+        ],
+        "answer": "Arthur Conan Doyle"
+      },
+      {
+        "question": "Which painter is known for his series of 'Water Lilies'?",
+        "options": [
+          "Claude Monet",
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Henri Matisse"
+        ],
+        "answer": "Claude Monet"
+      },
+      {
+        "question": "Who is the famous playwright of 'Romeo and Juliet'?",
+        "options": [
+          "William Shakespeare",
+          "George Bernard Shaw",
+          "Oscar Wilde",
+          "Anton Chekhov"
+        ],
+        "answer": "William Shakespeare"
+      },
+      {
+        "question": "What is the title of the famous painting by Edvard Munch?",
+        "options": [
+          "The Scream",
+          "Starry Night",
+          "Mona Lisa",
+          "The Persistence of Memory"
+        ],
+        "answer": "The Scream"
+      },
+      {
+        "question": "Which famous American author wrote 'The Great Gatsby'?",
+        "options": [
+          "F. Scott Fitzgerald",
+          "Ernest Hemingway",
+          "Mark Twain",
+          "John Steinbeck"
+        ],
+        "answer": "F. Scott Fitzgerald"
+      },
+      {
+        "question": "Which country is home to the famous Louvre Museum?",
+        "options": ["France", "Italy", "USA", "Spain"],
+        "answer": "France"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Brain Teasers & Riddles",
+    "questions": [
+      {
+        "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+        "options": ["Echo", "Shadow", "Whisper", "Light"],
+        "answer": "Echo"
+      },
+      {
+        "question": "The more you take, the more you leave behind. What am I?",
+        "options": ["Footsteps", "Memories", "Time", "Secrets"],
+        "answer": "Footsteps"
+      },
+      {
+        "question": "What has to be broken before you can use it?",
+        "options": ["Egg", "Glass", "Seal", "Coconut"],
+        "answer": "Egg"
+      },
+      {
+        "question": "I am not alive, but I can grow. I don't have lungs, but I need air. What am I?",
+        "options": ["Fire", "Mushroom", "Cloud", "Wave"],
+        "answer": "Fire"
+      },
+      {
+        "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+        "options": ["The letter 'M'", "A blink", "A shadow", "A dream"],
+        "answer": "The letter 'M'"
+      },
+      {
+        "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+        "options": ["Keyboard", "Book", "Maze", "Treasure chest"],
+        "answer": "Keyboard"
+      },
+      {
+        "question": "What has hands but can’t clap?",
+        "options": ["Clock", "Robot", "Mannequin", "Glove"],
+        "answer": "Clock"
+      },
+      {
+        "question": "I’m tall when I’m young, and I’m short when I’m old. What am I?",
+        "options": ["Candle", "Pencil", "Tree", "Shadow"],
+        "answer": "Candle"
+      },
+      {
+        "question": "The more of me you take, the more you leave behind. What am I?",
+        "options": ["Footsteps", "Breath", "Time", "Echo"],
+        "answer": "Footsteps"
+      },
+      {
+        "question": "What can travel around the world while staying in the same spot?",
+        "options": ["Stamp", "Compass", "Sunlight", "Satellite"],
+        "answer": "Stamp"
+      }
+    ]
+  }
+]

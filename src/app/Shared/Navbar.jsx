@@ -42,11 +42,11 @@ export const Navbar = () => {
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
-            <Typography
+            <Link
               variant="h6"
               noWrap
               component="a"
-              href="#app-bar-with-responsive-menu"
+              href={"/"}
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -58,7 +58,7 @@ export const Navbar = () => {
               }}
             >
               IQQuest
-            </Typography>
+            </Link>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
@@ -95,11 +95,11 @@ export const Navbar = () => {
               </Menu>
             </Box>
             {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
-            <Link to={"/"}
+            <Link href={"/"}
               variant="h5"
               noWrap
               component="a"
-              href=""
+              
               sx={{
                 mr: 2,
                 display: { xs: "flex", md: "none" },

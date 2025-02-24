@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "General Knowledge",
+      "image": "/images/knowledge.png"
+    },
+    {
+      "id": 2,
+      "name": "Science & Technology",
+      "image": "/images/science.png"
+    },
+    {
+      "id": 3,
+      "name": "History & Geography",
+      "image": "/images/geography.png"
+    },
+    {
+      "id": 4,
+      "name": "Sports & Games",
+      "image": "/images/sports.png"
+    },
+    {
+      "id": 5,
+      "name": "Math & Logic",
+      "image": "/images/math.png"
+    },
+    {
+      "id": 6,
+      "name": "Entertainment & Pop Culture",
+      "image": "/images/entertain.png"
+    },
+    {
+      "id": 7,
+      "name": "Literature & Language",
+      "image": "/images/literature.png"
+    },
+    {
+      "id": 8,
+      "name": "Brain Teasers & Riddles",
+      "image": "/images/riddles.png"
+    }
+  ]
+  
