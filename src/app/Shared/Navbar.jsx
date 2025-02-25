@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -15,8 +15,15 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "@mui/material";
 
+import {
+  RegisterLink,
+  LoginLink,
+} from "@kinde-oss/kinde-auth-nextjs/components";
+import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
+import { useKindeAuth } from "@kinde-oss/kinde-auth-nextjs";
+
 const pages = ["Home", "Quiz categories", "Learn", "Contact"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+const settings = ["Profile", "Logout"];
 
 export const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -36,6 +43,9 @@ export const Navbar = () => {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
+  const { isAuthenticated, user, login, logout } = useKindeAuth();
+
   return (
     <div>
       <AppBar position="static" className="!bg-gray-800">
@@ -95,11 +105,11 @@ export const Navbar = () => {
               </Menu>
             </Box>
             {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
-            <Link href={"/"}
+            <Link
+              href={"/"}
               variant="h5"
               noWrap
               component="a"
-              
               sx={{
                 mr: 2,
                 display: { xs: "flex", md: "none" },
@@ -112,7 +122,7 @@ export const Navbar = () => {
               }}
             >
               IQQuest
-            </Link >
+            </Link>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
                 <Button
@@ -124,7 +134,7 @@ export const Navbar = () => {
                 </Button>
               ))}
             </Box>
-            <Box sx={{ flexGrow: 0 }}>
+            {/* <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                   <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -154,7 +164,27 @@ export const Navbar = () => {
                   </MenuItem>
                 ))}
               </Menu>
-            </Box>
+            </Box> */}
+
+            {isAuthenticated ? (
+              <LogoutLink
+              prefetch="false"
+                
+              >
+                <button className="text-purple-800 bg-white px-6 py-2 rounded-md text-lg font-bold">
+                  Sign Out
+                </button>
+              </LogoutLink>
+            ) : (
+              <LoginLink
+              postLoginRedirectURL="/"
+                
+              >
+                <button className="text-purple-800 bg-white lg:px-6 px-4 lg:py-2 py-0.5 rounded-md text-lg font-bold">
+                  Sign in
+                </button>
+              </LoginLink>
+            )}
           </Toolbar>
         </Container>
       </AppBar>
